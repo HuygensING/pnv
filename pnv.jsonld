@@ -1,0 +1,739 @@
+[ {
+  "@id" : "http://dbpedia.org/ontology/Name",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "https://w3id.org/pnv#PersonName"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/ontology/Person",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "https://w3id.org/pnv#Person"
+  } ]
+}, {
+  "@id" : "http://purl.org/dc/elements/1.1/title",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/creator",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/modified",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/publisher",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/rights",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/vocab/vann/preferredNamespacePrefix",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/vocab/vann/preferredNamespaceUri",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://schema.org/Person",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "https://w3id.org/pnv#Person"
+  } ]
+}, {
+  "@id" : "http://schema.org/disambiguatingDescription",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2002/07/owl#equivalentProperty" : [ {
+    "@id" : "https://w3id.org/pnv#disambiguatingDescription"
+  } ]
+}, {
+  "@id" : "http://schema.org/familyName",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2002/07/owl#equivalentProperty" : [ {
+    "@id" : "http://www.wikidata.org/prop/direct/P734"
+  }, {
+    "@id" : "http://xmlns.com/foaf/0.1/familyName"
+  }, {
+    "@id" : "https://w3id.org/pnv#surname"
+  } ]
+}, {
+  "@id" : "http://schema.org/givenName",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2002/07/owl#equivalentProperty" : [ {
+    "@id" : "http://www.wikidata.org/prop/direct/P735"
+  }, {
+    "@id" : "http://xmlns.com/foaf/0.1/givenName"
+  }, {
+    "@id" : "https://w3id.org/pnv#givenName"
+  } ]
+}, {
+  "@id" : "http://schema.org/honorificPrefix",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2002/07/owl#equivalentProperty" : [ {
+    "@id" : "https://w3id.org/pnv#prefix"
+  } ]
+}, {
+  "@id" : "http://schema.org/honorificSuffix",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2002/07/owl#equivalentProperty" : [ {
+    "@id" : "https://w3id.org/pnv#honorificSuffix"
+  } ]
+}, {
+  "@id" : "http://www.cidoc-crm.org/cidoc-crm/E21_person",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "https://w3id.org/pnv#Person"
+  } ]
+}, {
+  "@id" : "http://www.cidoc-crm.org/cidoc-crm/E41_Appellation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "https://w3id.org/pnv#PersonName"
+  } ]
+}, {
+  "@id" : "http://www.loc.gov/premis/rdf/v3/Person",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3.org/ns/prov#Person"
+  }, {
+    "@id" : "http://xmlns.com/foaf/0.1/Person"
+  } ]
+}, {
+  "@id" : "http://www.w3.org/2004/02/skos/core#altLabel",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/2004/02/skos/core#prefLabel",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/ns/prov#Person",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q1071027",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "https://w3id.org/pnv#PersonName"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "https://w3id.org/pnv#Person"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/prop/direct/P2561",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2002/07/owl#equivalentProperty" : [ {
+    "@id" : "http://xmlns.com/foaf/0.1/name"
+  }, {
+    "@id" : "https://w3id.org/pnv#literalName"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/prop/direct/P734",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2002/07/owl#equivalentProperty" : [ {
+    "@id" : "http://xmlns.com/foaf/0.1/familyName"
+  }, {
+    "@id" : "https://w3id.org/pnv#surname"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/prop/direct/P735",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2002/07/owl#equivalentProperty" : [ {
+    "@id" : "http://xmlns.com/foaf/0.1/givenName"
+  }, {
+    "@id" : "https://w3id.org/pnv#givenName"
+  } ]
+}, {
+  "@id" : "http://xmlns.com/foaf/0.1/Person",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "https://w3id.org/pnv#Person"
+  } ]
+}, {
+  "@id" : "http://xmlns.com/foaf/0.1/depiction",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://xmlns.com/foaf/0.1/familyName",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2002/07/owl#equivalentProperty" : [ {
+    "@id" : "https://w3id.org/pnv#surname"
+  } ]
+}, {
+  "@id" : "http://xmlns.com/foaf/0.1/givenName",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2002/07/owl#equivalentProperty" : [ {
+    "@id" : "https://w3id.org/pnv#givenName"
+  } ]
+}, {
+  "@id" : "http://xmlns.com/foaf/0.1/name",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2002/07/owl#equivalentProperty" : [ {
+    "@id" : "https://w3id.org/pnv#literalName"
+  } ]
+}, {
+  "@id" : "https://w3id.org/pnv",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
+  "http://purl.org/dc/elements/1.1/title" : [ {
+    "@language" : "en",
+    "@value" : "Person Name Vocabulary"
+  } ],
+  "http://purl.org/dc/terms/creator" : [ {
+    "@value" : "Gijsbert Kruithof, National Archives, The Netherlands"
+  }, {
+    "@value" : "Lodewijk Petram, Huygens Institute for the History of the Netherlands"
+  }, {
+    "@value" : "Elvin Dechesne, Ordina, The Netherlands"
+  } ],
+  "http://purl.org/dc/terms/modified" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2019-07-01"
+  } ],
+  "http://purl.org/dc/terms/publisher" : [ {
+    "@id" : "https://www.huygens.knaw.nl/"
+  } ],
+  "http://purl.org/dc/terms/rights" : [ {
+    "@id" : "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+  } ],
+  "http://purl.org/vocab/vann/preferredNamespacePrefix" : [ {
+    "@value" : "pnv"
+  } ],
+  "http://purl.org/vocab/vann/preferredNamespaceUri" : [ {
+    "@value" : "https://w3id.org/pnv#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The Person Name Vocabulary (PNV) is an rdf vocabulary and data model for persons' names. It is applicable to many datasets in which persons are described, as it accommodates different levels of data granularity."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Person Name Vocabulary"
+  } ],
+  "http://xmlns.com/foaf/0.1/depiction" : [ {
+    "@id" : "https://huygensing.github.io/pnv/doc/img/PNV_visualization.png"
+  } ]
+}, {
+  "@id" : "https://w3id.org/pnv#Person",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A Person is a human being whose individual existence can somehow be documented"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Person"
+  }, {
+    "@language" : "nl",
+    "@value" : "Persoon"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "https://w3id.org/pnv#PersonName"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "en",
+    "@value" : "Person"
+  }, {
+    "@language" : "nl",
+    "@value" : "Persoon"
+  } ]
+}, {
+  "@id" : "https://w3id.org/pnv#PersonName",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A name is considered to be a resource type in its own right"
+  }, {
+    "@language" : "en",
+    "@value" : "A2A:PersonName"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "A Person's name"
+  }, {
+    "@language" : "nl",
+    "@value" : "Naam van een persoon"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "Naam van een persoon"
+  } ]
+}, {
+  "@id" : "https://w3id.org/pnv#baseSurname",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A Base surname is a family name without any prefixes, if those prefixes need to be ignored in sorting. If the family name is e.g. \"de Vries\" and it needs to be sorted under \"V\", the Base surname is \"Vries\". Base surname is equivalent to BioDes:geslachtsnaam."
+  }, {
+    "@language" : "en",
+    "@value" : "A2A:PersonNameLastName"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/pnv#PersonName"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "base surname"
+  }, {
+    "@language" : "nl",
+    "@value" : "basis achternaam"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "basis achternaam"
+  } ]
+}, {
+  "@id" : "https://w3id.org/pnv#disambiguatingDescription",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A Disambiguating description is a name part that is appended to make sure that the right person is designated. Name parts like \"Sr.\" and \"Jr.\", used to distinguish a child from his parent, are disambiguating descriptions."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/pnv#PersonName"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "disambiguating description"
+  }, {
+    "@language" : "nl",
+    "@value" : "onderscheidend achtervoegsel"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "https://w3id.org/pnv#suffix"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "onderscheidend achtervoegsel"
+  } ]
+}, {
+  "@id" : "https://w3id.org/pnv#firstName",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A First name is a combination of a given name, a patronym (if any) and a given name suffix. This property is only to be used by data providers who have combined these name elements into one field (following the BioDes structure). First name is equivalent to BioDes:voornaam."
+  }, {
+    "@language" : "en",
+    "@value" : "BioDes:voornaam"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/pnv#PersonName"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "first name (Biodes)"
+  }, {
+    "@language" : "nl",
+    "@value" : "voornaam BioDes"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "voornaam Biodes"
+  } ]
+}, {
+  "@id" : "https://w3id.org/pnv#givenName",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A Given name designates the name(s) given to someone at birth or any other name-giving event"
+  }, {
+    "@language" : "en",
+    "@value" : "A2A:PersonNameFirstName"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/pnv#PersonName"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "nl",
+    "@value" : "een of meer voornamen"
+  }, {
+    "@language" : "en",
+    "@value" : "given name"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@language" : "en",
+    "@value" : "Christian name"
+  }, {
+    "@language" : "en",
+    "@value" : "forename"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "een of meer voornamen"
+  } ]
+}, {
+  "@id" : "https://w3id.org/pnv#givenNameSuffix",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A Given name suffix is a name part that is appended to a given name. In the name of the fifteenth-century Duke of Burgundy Philip the Good, for example, \"the Good\" is the Given name suffix."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/pnv#PersonName"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "given name suffix"
+  }, {
+    "@language" : "nl",
+    "@value" : "toevoegsel voornaam"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "https://w3id.org/pnv#givenName"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "toevoegsel voornaam"
+  } ]
+}, {
+  "@id" : "https://w3id.org/pnv#hasName",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/pnv#Person"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has name"
+  }, {
+    "@language" : "nl",
+    "@value" : "heeft naam"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/pnv#PersonName"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "heeft naam"
+  } ]
+}, {
+  "@id" : "https://w3id.org/pnv#honorificSuffix",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "An Honorific suffix is a name part that is appended to distinguish someone"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/pnv#PersonName"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "honorific suffix"
+  }, {
+    "@language" : "nl",
+    "@value" : "titel (adellijk of burgerlijk) als achtervoegsel"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "https://w3id.org/pnv#suffix"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "titel (adellijk of burgerlijk) als achtervoegsel"
+  } ]
+}, {
+  "@id" : "https://w3id.org/pnv#infix",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "An Infix designates name elements that come in between pnv:firstName and pnv:baseSurname. This property is only to be used by data providers who have structured their name elements following the BioDes structure. Infix is equivalent to BioDes:intrapositie."
+  }, {
+    "@language" : "en",
+    "@value" : "BioDes:intrapositie"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/pnv#PersonName"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "infix (BioDes)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "https://w3id.org/pnv#infixTitle",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "An Infix title designates a title in the middle of a name"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/pnv#PersonName"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "nl",
+    "@value" : "adellijke titel in het midden van een naam"
+  }, {
+    "@language" : "en",
+    "@value" : "infix title"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "https://w3id.org/pnv#infix"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "adellijke titel in het midden van een naam"
+  } ]
+}, {
+  "@id" : "https://w3id.org/pnv#initials",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A2A:PersonNameInitials"
+  }, {
+    "@language" : "en",
+    "@value" : "An initial is the first letter of a person's given name (or sometimes a combination of letters). The Initials property can be used to separately record the initial(s) of a person's given name(s). Each initial should be followed by a dot. It is recommended to always use the Initials property to record initials, but if only the initials of a given name are known, they may also be recorded using pnv:givenName (or pnv:firstName). Example 1: \"Peter R. de Vries\" would be modelled using pnv:initials \"P.R.\" and pnv:givenName \"Peter R.\". Example 2: \"C.Joh. Kieviet\" would ideally be modelled using pnv:initials \"C.Joh.\", but pnv:givenName \"C.Joh.\" is also possible. Example 3: \"H.A.F.M.O. (Hans) van Mierlo\" would be modelled using pnv:initials \"H.A.F.M.O.\" and pnv:givenName \"Hans\"."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/pnv#PersonName"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "nl",
+    "@value" : "initialen"
+  }, {
+    "@language" : "en",
+    "@value" : "initials"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "initialen"
+  } ]
+}, {
+  "@id" : "https://w3id.org/pnv#literalName",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A2A:PersonNameLiteral"
+  }, {
+    "@language" : "en",
+    "@value" : "Literal name designates a full personal name. This property may only be left blank if a person's name was unknown or if a person was unnamed (e.g. a child that died shortly after being born), in which cases the property pnv:nameSpecification should state \"unknown\" or \"unnamed\"."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/pnv#PersonName"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "full name"
+  }, {
+    "@language" : "nl",
+    "@value" : "volledige naam"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@id" : "https://schema.org/name"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@language" : "nl",
+    "@value" : "letterlijke naam"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "volledige naam"
+  } ]
+}, {
+  "@id" : "https://w3id.org/pnv#nameSpecification",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The Name specification property can be used to specify the type of name, e.g. to discern between name variants, or to state that the person's name is unknown or that the person was unnamed, e.g. in the case of a child that died before it was given a name. It can be a string (e.g. \"unknown\", \"unnamed\", \"religious name\", \"stage name\", \"pen name\", \"married name\" or \"birth name\") or a reference to a controlled vocabulary."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/pnv#PersonName"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "nl",
+    "@value" : "naamspecificatie"
+  }, {
+    "@language" : "en",
+    "@value" : "name specification"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "naamspecificatie"
+  } ]
+}, {
+  "@id" : "https://w3id.org/pnv#patronym",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A Patronym is a name element based on the given name of one's father or grandfather. This is also the preferred property for a matronym (i.e. a name element based on the given name of one's mother or grandmother)."
+  }, {
+    "@language" : "en",
+    "@value" : "A2A:PersonNamePatronym"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/pnv#PersonName"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "nl",
+    "@value" : "patroniem"
+  }, {
+    "@language" : "en",
+    "@value" : "patronym"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "patroniem"
+  } ]
+}, {
+  "@id" : "https://w3id.org/pnv#prefix",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A Prefix is a noble or honorific title prefixing a name, e.g. \"Prof. dr.\" or \"Jhr.\""
+  }, {
+    "@language" : "en",
+    "@value" : "A2A:PersonNameTitle\nA2A:PersonNameTitleOfNobility"
+  }, {
+    "@language" : "en",
+    "@value" : "BioDes:prepositie"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/pnv#PersonName"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "prefix"
+  }, {
+    "@language" : "nl",
+    "@value" : "voorvoegsel"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "https://w3id.org/pnv#suffix",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A Suffix designates name elements that come after the family name. This property is only to be used by data providers who have structured their name elements following the BioDes structure."
+  }, {
+    "@language" : "en",
+    "@value" : "BioDes:postpositie"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/pnv#PersonName"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "nl",
+    "@value" : "achtervoegsel BioDes"
+  }, {
+    "@language" : "en",
+    "@value" : "suffix (BioDes)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "achtervoegsel BioDes"
+  } ]
+}, {
+  "@id" : "https://w3id.org/pnv#surname",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A surname is the name of the family a person is born into, including one or more prefixes. In some cases the honorific prefix can be incorporated into the surname (e.g. Van Welderen baron Rengers)."
+  }, {
+    "@language" : "en",
+    "@value" : "A2A:PersonNameFamilyName"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/pnv#PersonName"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "nl",
+    "@value" : "familienaam"
+  }, {
+    "@language" : "en",
+    "@value" : "surname"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@language" : "en",
+    "@value" : "surname"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "familienaam"
+  } ]
+}, {
+  "@id" : "https://w3id.org/pnv#surnamePrefix",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A Surname prefix is a name part prefixing the surname (e.g. \"van\" or \"van den\")."
+  }, {
+    "@language" : "en",
+    "@value" : "A2A:PersonNamePrefixLastName"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/pnv#PersonName"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "surname prefix"
+  }, {
+    "@language" : "nl",
+    "@value" : "tussenvoegsel"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "tussenvoegsel"
+  } ]
+}, {
+  "@id" : "https://w3id.org/pnv#trailingPatronym",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A Trailing patronym refers to the parent's given name, suffixing the person's family name, mostly used for disambiguation."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/pnv#PersonName"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "nl",
+    "@value" : "patroniem na achternaam"
+  }, {
+    "@language" : "en",
+    "@value" : "trailing patronym"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "https://w3id.org/pnv#patronym"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+    "@language" : "nl",
+    "@value" : "patroniem na achternaam"
+  } ]
+} ]

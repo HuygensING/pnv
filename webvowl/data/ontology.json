@@ -1,0 +1,867 @@
+{
+  "_comment" : "Created with OWL2VOWL (version 0.3.4), http://vowl.visualdataweb.org",
+  "header" : {
+    "languages" : [ "en", "nl", "undefined" ],
+    "baseIris" : [ "http://www.w3.org/1999/02/22-rdf-syntax-ns", "https://w3id.org/pnv", "http://schema.org", "http://www.w3.org/2002/07/owl", "http://www.w3.org/2000/01/rdf-schema", "http://www.w3.org/2001/XMLSchema", "http://dbpedia.org/ontology", "http://www.cidoc-crm.org/cidoc-crm", "http://xmlns.com/foaf/0.1" ],
+    "iri" : "https://w3id.org/pnv/",
+    "labels" : {
+      "en" : "Dutch Person Name Vocabulary"
+    }
+  },
+  "namespace" : [ ],
+  "metrics" : {
+    "classCount" : 7,
+    "objectPropertyCount" : 1,
+    "datatypePropertyCount" : 19,
+    "individualCount" : 0
+  },
+  "class" : [ {
+    "id" : "3",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "13",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "1",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "20",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "21",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "22",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "14",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "8",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "5",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "24",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "6",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "16",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "27",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "28",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "29",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "18",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "10",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "33",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "12",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "34",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "35",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "26",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "36",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "2",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "39",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "42",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "32",
+    "type" : "owl:equivalentClass"
+  } ],
+  "classAttribute" : [ {
+    "iri" : "http://schema.org/Person",
+    "baseIri" : "http://schema.org",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Person"
+    },
+    "attributes" : [ "equivalent", "external" ],
+    "id" : "3"
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "13",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "https://w3id.org/pnv/PersonName",
+    "equivalent" : [ "14" ],
+    "baseIri" : "https://w3id.org/pnv",
+    "instances" : 0,
+    "annotations" : {
+      "prefLabel" : [ {
+        "identifier" : "prefLabel",
+        "language" : "nl",
+        "value" : "Naam van een persoon",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "PersonName",
+      "en" : "A Person's name",
+      "nl" : "Naam van een persoon"
+    },
+    "comment" : {
+      "en" : "A name is considered to be a resource type in its own right"
+    },
+    "attributes" : [ "equivalent" ],
+    "id" : "1"
+  }, {
+    "iri" : "http://dbpedia.org/ontology/Person",
+    "baseIri" : "http://dbpedia.org/ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Person"
+    },
+    "attributes" : [ "equivalent", "external" ],
+    "id" : "20"
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "21",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "22",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://dbpedia.org/ontology/Name",
+    "baseIri" : "http://dbpedia.org/ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Name"
+    },
+    "attributes" : [ "equivalent", "external" ],
+    "id" : "14"
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "8",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "5",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "24",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "6",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "16",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "27",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://xmlns.com/foaf/0.1/Person",
+    "baseIri" : "http://xmlns.com/foaf/0.1",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Person"
+    },
+    "attributes" : [ "equivalent", "external" ],
+    "id" : "28"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "29",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "18",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "10",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "33",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "12",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "34",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "35",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "26",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "36",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "2",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "39",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.cidoc-crm.org/cidoc-crm/E21_person",
+    "baseIri" : "http://www.cidoc-crm.org/cidoc-crm",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "E21_person"
+    },
+    "attributes" : [ "equivalent", "external" ],
+    "id" : "42"
+  }, {
+    "iri" : "https://w3id.org/pnv/Person",
+    "equivalent" : [ "20", "3", "28", "42" ],
+    "baseIri" : "https://w3id.org/pnv",
+    "instances" : 0,
+    "annotations" : {
+      "prefLabel" : [ {
+        "identifier" : "prefLabel",
+        "language" : "en",
+        "value" : "Person",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Person",
+      "nl" : "Persoon"
+    },
+    "comment" : {
+      "en" : "A Person is a human being whose individual existence can somehow be documented"
+    },
+    "attributes" : [ "equivalent" ],
+    "id" : "32"
+  } ],
+  "property" : [ {
+    "id" : "0",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "4",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "7",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "9",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "11",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "15",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "17",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "23",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "25",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "30",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "31",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "37",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "19",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "38",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "40",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "41",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "43",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "44",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "45",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "46",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "47",
+    "type" : "owl:datatypeProperty"
+  } ],
+  "propertyAttribute" : [ {
+    "iri" : "https://w3id.org/pnv/prefix",
+    "baseIri" : "https://w3id.org/pnv",
+    "range" : "2",
+    "annotations" : {
+      "seeAlso" : [ {
+        "identifier" : "seeAlso",
+        "language" : "undefined",
+        "value" : "https://schema.org/honorificPrefix",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "prefix",
+      "en" : "prefix",
+      "nl" : "voorvoegsel"
+    },
+    "domain" : "1",
+    "comment" : {
+      "en" : "A2A:PersonNameTitleOfNobility",
+      "undefined" : "A Prefix designates a title of nobility or a civil grade"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "0"
+  }, {
+    "iri" : "http://schema.org/givenName",
+    "baseIri" : "http://schema.org",
+    "range" : "6",
+    "label" : {
+      "IRI-based" : "givenName"
+    },
+    "domain" : "5",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "4"
+  }, {
+    "iri" : "https://w3id.org/pnv/baseSurname",
+    "baseIri" : "https://w3id.org/pnv",
+    "range" : "8",
+    "annotations" : {
+      "prefLabel" : [ {
+        "identifier" : "prefLabel",
+        "language" : "nl",
+        "value" : "basis achternaam",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "baseSurname",
+      "en" : "base surname",
+      "nl" : "basis achternaam"
+    },
+    "domain" : "5",
+    "attributes" : [ "datatype" ],
+    "id" : "7"
+  }, {
+    "iri" : "https://w3id.org/pnv/firstName",
+    "baseIri" : "https://w3id.org/pnv",
+    "range" : "10",
+    "annotations" : {
+      "prefLabel" : [ {
+        "identifier" : "prefLabel",
+        "language" : "nl",
+        "value" : "voornaam",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "firstName",
+      "en" : "first name",
+      "nl" : "voornaam"
+    },
+    "domain" : "1",
+    "comment" : {
+      "en" : "A first name is a combination of a given name and a patronym (if any)"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "9"
+  }, {
+    "iri" : "https://w3id.org/pnv/honorificSuffix",
+    "baseIri" : "https://w3id.org/pnv",
+    "range" : "12",
+    "annotations" : {
+      "prefLabel" : [ {
+        "identifier" : "prefLabel",
+        "language" : "nl",
+        "value" : "titel (adellijk of burgerlijk) als achtervoegsel",
+        "type" : "label"
+      } ],
+      "seeAlso" : [ {
+        "identifier" : "seeAlso",
+        "language" : "undefined",
+        "value" : "https://schema.org/honorificSuffix",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "honorificSuffix",
+      "en" : "honorific suffix",
+      "nl" : "titel (adellijk of burgerlijk) als achtervoegsel"
+    },
+    "domain" : "1",
+    "comment" : {
+      "en" : "A Honorific suffix is a name part that is appended to distinguish someone"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "11"
+  }, {
+    "iri" : "https://w3id.org/pnv/givenNameSuffix",
+    "baseIri" : "https://w3id.org/pnv",
+    "range" : "16",
+    "annotations" : {
+      "prefLabel" : [ {
+        "identifier" : "prefLabel",
+        "language" : "nl",
+        "value" : "toevoegsel voornaam",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "givenNameSuffix",
+      "en" : "given name suffix",
+      "nl" : "toevoegsel voornaam"
+    },
+    "domain" : "5",
+    "attributes" : [ "datatype" ],
+    "id" : "15"
+  }, {
+    "iri" : "https://w3id.org/pnv/surname",
+    "equivalent" : [ "19" ],
+    "baseIri" : "https://w3id.org/pnv",
+    "range" : "18",
+    "annotations" : {
+      "prefLabel" : [ {
+        "identifier" : "prefLabel",
+        "language" : "nl",
+        "value" : "familienaam",
+        "type" : "label"
+      } ],
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "en",
+        "value" : "surname",
+        "type" : "label"
+      } ],
+      "seeAlso" : [ {
+        "identifier" : "seeAlso",
+        "language" : "undefined",
+        "value" : "https://schema.org/familyName",
+        "type" : "iri"
+      }, {
+        "identifier" : "seeAlso",
+        "language" : "undefined",
+        "value" : "https://www.wikidata.org/wiki/Property:P734",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "surname",
+      "en" : "surname",
+      "nl" : "familienaam"
+    },
+    "domain" : "1",
+    "comment" : {
+      "en" : "A2A:PersonNameLastName"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "17"
+  }, {
+    "iri" : "http://xmlns.com/foaf/0.1/givenName",
+    "baseIri" : "http://xmlns.com/foaf/0.1",
+    "range" : "21",
+    "label" : {
+      "IRI-based" : "givenName"
+    },
+    "domain" : "5",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "23"
+  }, {
+    "iri" : "https://w3id.org/pnv/literalName",
+    "baseIri" : "https://w3id.org/pnv",
+    "range" : "26",
+    "annotations" : {
+      "prefLabel" : [ {
+        "identifier" : "prefLabel",
+        "language" : "nl",
+        "value" : "volledige naam",
+        "type" : "label"
+      } ],
+      "seeAlso" : [ {
+        "identifier" : "seeAlso",
+        "language" : "undefined",
+        "value" : "https://www.wikidata.org/wiki/Property:P2561",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "literalName",
+      "en" : "full name",
+      "nl" : "letterlijke naam"
+    },
+    "domain" : "1",
+    "comment" : {
+      "en" : "Every person has to have a full name. If a name is not known at all, a text like 'Unknown' should be used",
+      "nl" : "volledige naam"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "25"
+  }, {
+    "iri" : "https://w3id.org/pnv/surnamePrefix",
+    "baseIri" : "https://w3id.org/pnv",
+    "range" : "29",
+    "annotations" : {
+      "prefLabel" : [ {
+        "identifier" : "prefLabel",
+        "language" : "nl",
+        "value" : "familienaam prefix",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "surnamePrefix",
+      "en" : "surname prefix",
+      "nl" : "familienaam prefix"
+    },
+    "domain" : "1",
+    "comment" : {
+      "en" : "A  surname prefix refers to a preceding part of the surname"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "30"
+  }, {
+    "iri" : "https://w3id.org/pnv/hasName",
+    "baseIri" : "https://w3id.org/pnv",
+    "range" : "1",
+    "annotations" : {
+      "prefLabel" : [ {
+        "identifier" : "prefLabel",
+        "language" : "nl",
+        "value" : "heeft naam",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "hasName",
+      "en" : "has name",
+      "nl" : "heeft naam"
+    },
+    "domain" : "32",
+    "attributes" : [ "object" ],
+    "id" : "31"
+  }, {
+    "iri" : "https://w3id.org/pnv/trailingPatronym",
+    "baseIri" : "https://w3id.org/pnv",
+    "range" : "24",
+    "annotations" : {
+      "prefLabel" : [ {
+        "identifier" : "prefLabel",
+        "language" : "nl",
+        "value" : "patroniem na achternaam",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "trailingPatronym",
+      "en" : "trailing patronym",
+      "nl" : "patroniem na achternaam"
+    },
+    "domain" : "1",
+    "comment" : {
+      "undefined" : "A Trailing patronym refers to the father's name at the end of one's own name, mostly for disambiguation"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "37"
+  }, {
+    "iri" : "http://xmlns.com/foaf/0.1/familyName",
+    "baseIri" : "http://xmlns.com/foaf/0.1",
+    "range" : "22",
+    "label" : {
+      "IRI-based" : "familyName"
+    },
+    "domain" : "5",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "19"
+  }, {
+    "range" : "1",
+    "domain" : "32",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "38"
+  }, {
+    "iri" : "https://w3id.org/pnv/patronym",
+    "baseIri" : "https://w3id.org/pnv",
+    "range" : "36",
+    "annotations" : {
+      "prefLabel" : [ {
+        "identifier" : "prefLabel",
+        "language" : "nl",
+        "value" : "patroniem",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "patronym",
+      "en" : "patronym",
+      "nl" : "patroniem"
+    },
+    "domain" : "1",
+    "comment" : {
+      "en" : "A2A:PersonNamePatronym",
+      "undefined" : "A Patronym refers to the father's name"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "40"
+  }, {
+    "iri" : "https://w3id.org/pnv/infix",
+    "baseIri" : "https://w3id.org/pnv",
+    "range" : "34",
+    "annotations" : {
+      "prefLabel" : [ {
+        "identifier" : "prefLabel",
+        "language" : "nl",
+        "value" : "tussenvoegsel",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "infix",
+      "en" : "infix",
+      "nl" : "tussenvoegsel"
+    },
+    "domain" : "1",
+    "comment" : {
+      "en" : "An Infix designates a name part in the middle of a name"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "41"
+  }, {
+    "iri" : "https://w3id.org/pnv/givenName",
+    "equivalent" : [ "23" ],
+    "baseIri" : "https://w3id.org/pnv",
+    "range" : "33",
+    "annotations" : {
+      "prefLabel" : [ {
+        "identifier" : "prefLabel",
+        "language" : "nl",
+        "value" : "één of meer voornamen",
+        "type" : "label"
+      } ],
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "en",
+        "value" : "Christian name",
+        "type" : "label"
+      }, {
+        "identifier" : "altLabel",
+        "language" : "en",
+        "value" : "forename",
+        "type" : "label"
+      } ],
+      "seeAlso" : [ {
+        "identifier" : "seeAlso",
+        "language" : "undefined",
+        "value" : "https://www.wikidata.org/wiki/Property:P735",
+        "type" : "iri"
+      }, {
+        "identifier" : "seeAlso",
+        "language" : "undefined",
+        "value" : "http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-forename.html",
+        "type" : "iri"
+      }, {
+        "identifier" : "seeAlso",
+        "language" : "undefined",
+        "value" : "https://schema.org/givenName",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "givenName",
+      "en" : "given name",
+      "nl" : "één of meer voornamen"
+    },
+    "domain" : "1",
+    "comment" : {
+      "en" : "A Given name designates the name(s) given to someone at birth or any other name-giving event"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "43"
+  }, {
+    "iri" : "https://w3id.org/pnv/disambiguatingDescription",
+    "baseIri" : "https://w3id.org/pnv",
+    "range" : "39",
+    "annotations" : {
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "nl",
+        "value" : "achtervoegsel (onderscheidend)",
+        "type" : "label"
+      } ],
+      "seeAlso" : [ {
+        "identifier" : "seeAlso",
+        "language" : "undefined",
+        "value" : "https://schema.org/disambiguatingDescription",
+        "type" : "iri"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "disambiguatingDescription",
+      "en" : "disambiguating description",
+      "nl" : "achtervoegsel (onderscheidend)"
+    },
+    "domain" : "1",
+    "comment" : {
+      "en" : "A Disambiguating description is a name part that is appended to make sure that the right person is designated\nFor example \"Philips de Goede\", where \"de Goede\" is the disambiguating description."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "44"
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#topDataProperty",
+    "baseIri" : "http://www.w3.org/2002/07/owl",
+    "range" : "13",
+    "label" : {
+      "IRI-based" : "topDataProperty"
+    },
+    "domain" : "5",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "45"
+  }, {
+    "iri" : "https://w3id.org/pnv/infixTitle",
+    "baseIri" : "https://w3id.org/pnv",
+    "range" : "35",
+    "annotations" : {
+      "prefLabel" : [ {
+        "identifier" : "prefLabel",
+        "language" : "nl",
+        "value" : "adellijke titel",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "infixTitle",
+      "en" : "infix title",
+      "nl" : "adellijke titel"
+    },
+    "domain" : "1",
+    "comment" : {
+      "en" : "An Infix title designates a title in the middle of a name"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "46"
+  }, {
+    "iri" : "https://w3id.org/pnv/suffix",
+    "baseIri" : "https://w3id.org/pnv",
+    "range" : "27",
+    "annotations" : {
+      "prefLabel" : [ {
+        "identifier" : "prefLabel",
+        "language" : "nl",
+        "value" : "achtervoegsel",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "suffix",
+      "en" : "suffix",
+      "nl" : "achtervoegsel"
+    },
+    "domain" : "1",
+    "comment" : {
+      "undefined" : "A Suffix is a name part that is appended to another name part"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "47"
+  } ]
+}

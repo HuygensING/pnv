@@ -1,0 +1,109 @@
+<h2 id="desc" class="list">PNV: Description <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
+<span class="markdown">
+PNV is aimed at correctly describing (and thus identifying) persons. Figure 4 shows the structure of the vocabulary: there is a number of data properties that describe name elements or specify the type of name (variant). Taken together, these properties define a class: a name. This class is related to the person class (<a href="#Person">pnv:Person</a>, which is equivalent to <a href="http://www.cidoc-crm.org/cidoc-crm/E21_person" target="_blank">cidoc:E21</a>, <a href="http://dbpedia.org/ontology/Person" target="_blank">dbpedia:Person</a> and <a href="http://schema.org/Person" target="_blank">schema:Person</a>), as it is the name of a person. </span>
+</div>
+<div style="margin: 10px" align="center"><a href="img/PNV_visualization.png" target="_blank"><img src="img/PNV_visualization.png" style='width:80%;' alt="Visualization of Person Name Vocabulary"></a><div class="caption">Fig 4: Visualization of PNV structure</div></div>
+<div><span class="markdown">
+Some of the properties are very similar (<a href="#givenName">pnv:givenName</a> and <a href="#firstName">pnv:firstName</a>, for example). Naturally, they are not meant to be used simultaneously. The availability of similar-looking properties stems from the premise of creating a flexible vocabulary, with a broad choice of options so that there is always a (near-)perfect fit for a user's data elements. Figure 5 shows how the various properties are related. Most users would start with the properties on the left side of the diagram and go from there to the centre. However, users who have modelled their data following the <a href="http://www.biografischportaal.nl/about/biodes" target="_blank">BioDes</a> rules, would find that they have e.g. first names and patronyms in one field. To accommodate these users, extra properties were created, which are shown on the right side of the diagram.</span>
+</div>
+<div style="margin: 10px" align="center"><a href="img/PNV_structure.png" target="_blank"><img src="img/PNV_structure.png" style='width:100%;' alt="Structure of Person Name Vocabulary"></a><div class="caption">Fig 5: Full PNV menu</div></div>
+<div id="namevariants" style="margin: 5px">
+<h3 id="nv" class="list">Name variants in PNV</h3>
+<span class="markdown">
+A person can have multiple <a href="#hasName">pnv:hasName</a> relations to multiple <a href="#PersonName">pnv:PersonName</a> objects, each describing a different name variant. Figure 6 shows how three different observations of the name of a particular person can be modelled in PNV. This figure also goes to show that if person's name is known, the full name should always be stated using the <a href="#literalName">pnv:literalName</a> property. The <a href="#nameSpecification">pnv:nameSpecification</a> property can be used to specify the type of name. See <a href="#sa">the next section (3.2)</a> for best practices of further annotations, including specifying the time period in which a name variant was used.</span>
+</div>
+<div style="margin: 10px" align="center"><a href="img/PNV_nameVariants.png" target="_blank"><img src="img/PNV_nameVariants.png" style='width:80%;' alt="Name variants in PNV"></a><div class="caption">Fig 6: Name variants in PNV</div></div>
+<h3 id="sa" class="list">Best practices for semantic annotations to persons and names</h3>
+<span class="markdown">It is recommended to add semantic annotations to <a href="#Person">pnv:Person</a> objects, as this increases readability of the data for both humans and machines. Furthermore, semantic annotations to <a href="#PersonName">pnv:PersonName</a> objects can be used for indicating particularities of a specific name (variant).</span> 
+<span class="markdown">The following annotations are recommended for <a href="#Person">pnv:Person</a> objects:</span>
+<ul>
+<li>Include semantic information on the object in an rdfs:label property, indicating that the object describes a person observation. The value of the rdfs:label property for a <a href="#Person">pnv:Person</a> object on Albert Einstein would e.g. be "Albert Einstein (person)".</li>
+<li>Include (the preferred variant of) the person's full name in a skos:prefLabel property to allow for easy display of the name.</li>
+</ul>
+<span class="markdown">The following annotations are recommended for <a href="#PersonName">pnv:PersonName</a> objects&mdash;mainly for person's names with multiple variants (otherwise optional):</span>
+<ul>
+<li>Include semantic information on the object in an rdfs:label property, e.g. indicating that the object describes a particular variant of a person's name. The value of the rdfs:label property for a <a href="#PersonName">pnv:PersonName</a> object that describes the married name of the Dutch journalist that figures in the explanation of <a href="#nv">Name variants in PNV</a> would e.g. be "Annemarie de Bourbon de Parme-Gualtherie van Weezel (married name)".</li>
+<li>Include the person's full name (variant) in a skos:prefLabel property to allow for easy display of the name.</li>
+<li>Use <a href="#nameSpecification">pnv:nameSpecification</a> for a short description of the name variant being described. The value can be a text string (e.g. "married name") or a URI (e.g. "https://www.wikidata.org/prop/direct/P2562").</li>
+<li>Use <a href="http://purl.org/dc/terms/coverage" target="_blank">dct:coverage</a> to specify a date (use xsd:date or xsd:dateTime) or time period for a name (variant). To specify a time periode, the property can be linked to e.g. a <a href="http://semanticweb.cs.vu.nl/2009/11/sem/Time" target="_blank">sem:Time</a> object, with a sem:hasLatestBeginTimeStamp and, optionally, also a sem:hasEarliestEndTimeStamp, or to a <a href="http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span" target="_blank">crm:E52_Time-Span</a> object, with a crm:P81a_end_of_the_begin and, optionally, also a crm:p81b_begin_of_the_end, or to an an <a href="http://www.europeana.eu/schemas/edm/TimeSpan" target="_blank">edm:TimeSpan</a> object, with an edm:begin and, optionally, also an edm:end.</li>
+<li>References to other rdf resources or a web page can be added using a rdfs:seeAlso property.</li>
+</ul>
+</div>
+<div id="examples" style="margin: 5px">
+<h3 id="exa" class="list">Modelling examples</h3>
+<figure>
+  <figcaption>PNV example 1 - Leiden archive (Erfgoed Leiden en Omstreken - Historisch Leiden in kaart) - Menno den Engelse</figcaption>
+  <pre>
+    <code>
+      @prefix schema: &lt;http://schema.org/> .
+      @prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#> .
+      @prefix pnv: &lt;https://w3id.org/pnv#> .
+      @prefix roar: &lt;https://w3id.org/roar#> .
+      @prefix persooninbron: &lt;https://historischleideninkaart.nl/persooninbron/> .
+
+      persooninbron:508
+            schema:gender schema:Male ;
+            rdfs:label "Symon bestorven zoon van Zybrant Gerytsz botercoper" ;
+            pnv:hasName [
+                  a pnv:PersonName ;
+                  pnv:givenName "Zybrant" ;
+                  pnv:patronym "Gerytsz" ;
+                  pnv:literalName "Zybrant Gerytsz" ;
+            ];
+      a roar:PersonObservation .
+    </code>
+  </pre>
+</figure>
+<figure>
+  <figcaption>PNV example 2 (name variants of Annemarie de Bourbon de Parme) - Lodewijk Petram </figcaption>
+  <pre>
+    <code>
+      @prefix rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+      @prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#> .
+      @prefix pnv: &lt;https://w3id.org/pnv#> .
+
+      &lt;http://example.com/24008889> a  pnvPerson ;
+         rdfs:label      "Annemarie de Bourbon de Parme - Gualthérie van Weezel (person) ;
+         skos:prefLabel: "Annemarie de Bourbon de Parme - Gualthérie van Weezel" ;
+         pnv:hasName [ a pnv:PersonName ;
+            rdfs:label            "Annemarie de Bourbon de Parme - Gualthérie van Weezel" ;
+            pnv:literalName       "Annemarie de Bourbon de Parme - Gualthérie van Weezel" ;
+            pnv:nameSpecification &lt;https://www.wikidata.org/prop/direct/P2562> ] ,
+          [ a pnv:PersonName ;
+            rdfs:label            "Annemarie de Bourbon" ;
+            pnv:literalName       "Annemarie de Bourbon" ] ,
+          [ a pnv:PersonName ;
+            rdfs:label            "Annemarie Cecilia Gualthérie van Weezel" ;
+            pnv:surname           "Gualthérie van Weezel" ;
+            pnv:givenName         "Annemarie Cecilia" ;
+            pnv:literalName       "Annemarie Cecilia Gualthérie van Weezel" ;
+            pnv:nameSpecification "birth name" ] .
+    </code>
+  </pre>
+</figure>
+<figure>
+  <figcaption>PNV example 3 (name variant) - Amsterdam City Archives - Leon van Wissen</figcaption>
+  <pre>
+    <code>
+      @prefix schema: &lt;http://schema.org/> .
+      @prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#> .
+      @prefix pnv: &lt;https://w3id.org/pnv#> .
+
+	  saaPerson:saaId26049798p2 a saa:Person ;
+        	rdfs:label "Anna Beumier",
+            	"Anna Beunjer" ;
+        	schema:gender schema:Female ;
+        	pnv:hasName [ a pnv:PersonName ;
+                  rdfs:label "Anna Beumier" ;
+                  pnv:baseSurname "Beumier" ;
+                  pnv:givenName "Anna" ;
+                  pnv:literalName "Anna Beumier" ],
+              [ a pnv:PersonName ;
+                  rdfs:label "Anna Beunjer" ;
+                  pnv:baseSurname "Beunjer" ;
+                  pnv:givenName "Anna" ;
+                  pnv:literalName "Anna Beunjer" ] .
+    </code>
+  </pre>
+</figure>
+</div>

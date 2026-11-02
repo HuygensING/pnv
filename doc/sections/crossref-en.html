@@ -1,0 +1,1136 @@
+<h2  id="crossreference" class="list">Cross reference for PNV classes, properties and dataproperties <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
+This section provides details for each class and property defined by PNV.
+<div id="classes">
+   <h3 id="classes-headline" class="list">Classes</h3>
+   <ul class="hlist">
+      <li>
+      <a href="#Person" title="https://w3id.org/pnv#Person">Person (@nl: persoon)</a>
+   </li>
+   <li>
+      <a href="#PersonName" title="https://w3id.org/pnv#PersonName">A person's name (@nl: Naam van een persoon)</a>
+   </li>
+   <li>
+      <a href="#http://www.cidoc-crm.org/cidoc-crm/E21_person" title="http://www.cidoc-crm.org/cidoc-crm/E21_Person">
+         <span>cidoc-crm:E21_person</span>
+      </a>
+   </li>
+      <li>
+      <a href="#http://dbpedia.org/ontology/Person" title="http://dbpedia.org/ontology/Person">
+         <span>dbpedia:Person</span>
+      </a>
+   </li>
+   <li>
+      <a href="#https://www.wikidata.org/entity/Q5" title="https://www.wikidata.org/entity/Q5">
+         <span>wikidata-wd:Q5</span>
+      </a>
+   </li>
+   <li>
+      <a href="#http://schema.org/Person" title="http://schema.org/Person">
+         <span>schema:Person</span>
+      </a>
+   </li>
+   <li>
+      <a href="#http://xmlns.com/foaf/0.1/Person" title="http://xmlns.com/foaf/0.1/Person">
+         <span>foaf:Person</span>
+      </a>
+   </li>
+   <li>
+      <a href="http://dbpedia.org/ontology/Name" title="http://dbpedia.org/ontology/Name">
+         <span>dbpedia:Name</span>
+      </a>
+   </li>
+   <li>
+      <a href="#https://www.wikidata.org/entity/Q1071027" title="https://www.wikidata.org/entity/Q1071027">
+         <span>wikidata-wd:Q1071027</span>
+      </a>
+   </li>
+   <li>
+      <a href="#http://www.cidoc-crm.org/cidoc-crm/E41_Appellation" title="http://www.cidoc-crm.org/cidoc-crm/E41_Appellation">
+         <span>cidoc-crm:E41_Appellation</span>
+      </a>
+   </li>
+   </ul>
+   <div class="entity" id="Person">
+      <h3>Person<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <h3>@nl:Persoon<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/pnv#Person</p>
+      <div class="comment">
+         <span class="markdown">A Person is a human being whose individual existence can somehow be documented</span>
+      </div>
+      <dl class="description">
+         <dt>is in domain of</dt>
+         <dd>
+            <a href="#hasName" title="https://w3id.org/pnv#hasName">has name (@nl: heeft naam)</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+         <dt>is disjoint with</dt>
+         <dd>
+            <a href="#PersonName" title="https://w3id.org/pnv#PersonName">A person's name (@nl: Naam van een persoon)</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="PersonName">
+      <h3>A person's name<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <h3>@nl:Naam van een persoon<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/pnv#PersonName</p>
+      <div class="comment">
+         <span class="markdown">A name is considered to be a resource type in its own right</span>
+         <span class="markdown">PersonName</span>
+      </div>
+      <dl class="description">
+         <dt>is in domain of</dt>
+         <dd>
+            <a href="#baseSurname" title="https://w3id.org/pnv#baseSurname">base surname (@nl:basis achternaam)</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#disambiguatingDescription" title="https://w3id.org/pnv#disambiguatingDescription">disambiguating description (@nl:onderscheidend achtervoegsel)</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#firstName" title="https://w3id.org/pnv#firstName">first name (Biodes) (@nl:voornaam BioDes)</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#literalName" title="https://w3id.org/pnv#literalName">full name (@nl:volledige naam)</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#givenNameSuffix" title="https://w3id.org/pnv#givenNameSuffix">given name suffix (@nl:toevoegsel voornaam)</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#givenName" title="https://w3id.org/pnv#givenName">given name (@nl:een of meer voornamen)</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#honorificSuffix" title="https://w3id.org/pnv#honorificSuffix">honorific suffix (@nl:titel (adellijk of burgerlijk) als achtervoegsel)</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#infixTitle" title="https://w3id.org/pnv#infixTitle">infix title (@nl:adellijke titel in het midden van een naam)</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#infix" title="https://w3id.org/pnv#infix">infix (BioDes)</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#initials" title="https://w3id.org/pnv#initials">initials (@nl:initialen)</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#nameSpecification" title="https://w3id.org/pnv#nameSpecification">name specification (@nl:naamspecificatie)</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#patronym" title="https://w3id.org/pnv#patronym">patronym (@nl:patroniem)</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#prefix" title="https://w3id.org/pnv#prefix">prefix (@nl:voorvoegsel)</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#suffix" title="https://w3id.org/pnv#suffix">suffix (BioDes) (@nl:achtervoegsel BioDes)</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#surname" title="https://w3id.org/pnv#surname">surname (@nl:familienaam)</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#surnamePrefix" title="https://w3id.org/pnv#surnamePrefix">surname prefix (@nl:tussenvoegsel)</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#trailingPatronym" title="https://w3id.org/pnv#trailingPatronym">trailing patronym (@nl:patroniem na achternaam)</a>
+            <sup class="type-dp" title="data property">dp</sup>
+         </dd>
+         <dt>is in range of</dt>
+         <dd>
+            <a href="#hasName" title="https://w3id.org/pnv#hasName">has name (@nl: heeft naam)</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+         <dt>is disjoint with</dt>
+         <dd>
+            <a href="#Person" title="https://w3id.org/pnv#Person">Person (@nl:Persoon)</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="http://www.cidoc-crm.org/cidoc-crm/E21_person">
+      <h3>cidoc_crm:E21_Person<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.cidoc-crm.org/cidoc-crm/E21_Person</p>
+      <dl class="description">
+         <dt>is equivalent to</dt>
+         <dd>
+            <a href="#Person" title="https://w3id.org/pnv#Person">Person (@nl:Persoon)</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="http://dbpedia.org/ontology/Person">
+      <h3>dbpedia:Person<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://dbpedia.org/ontology/Person</p>
+      <dl class="description">
+         <dt>is equivalent to</dt>
+         <dd>
+            <a href="#Person" title="https://w3id.org/pnv#Person">Person (@nl:Persoon)</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="https://www.wikidata.org/entity/Q5">
+      <h3>wikidata-wd:Q5<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://www.wikidata.org/entity/Q5</p>
+      <dl class="description">
+         <dt>is equivalent to</dt>
+         <dd>
+            <a href="#Person" title="https://w3id.org/pnv#Person">Person (@nl:Persoon)</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="http://schema.org/Person">
+      <h3>schema:Person<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://schema.org/Person</p>
+      <dl class="description">
+         <dt>is equivalent to</dt>
+         <dd>
+            <a href="#Person" title="https://w3id.org/pnv#Person">Person (@nl:Persoon)</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="http://xmlns.com/foaf/0.1/Person">
+      <h3>foaf:Person<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://xmlns.com/foaf/0.1/Person</p>
+      <dl class="description">
+         <dt>is equivalent to</dt>
+         <dd>
+            <a href="#Person" title="https://w3id.org/pnv#Person">Person (@nl:Persoon)</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="http://dbpedia.org/ontology/Name">
+      <h3>dbpedia:Name<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://dbpedia.org/ontology/Name</p>
+      <dl class="description">
+         <dt>is equivalent to</dt>
+         <dd>
+            <a href="#PersonName" title="https://w3id.org/pnv#PersonName">A person's name (@nl:Naam van een persoon)</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="https://www.wikidata.org/entity/Q1071027">
+      <h3>wikidata-wd:Q1071027<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://www.wikidata.org/entity/Q1071027</p>
+      <dl class="description">
+         <dt>is equivalent to</dt>
+         <dd>
+            <a href="#PersonName" title="https://w3id.org/pnv#PersonName">A person's name (@nl:Naam van een persoon)</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="http://www.cidoc-crm.org/cidoc-crm/E41_Appellation">
+      <h3>cidoc-crm:E41_Appellation<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.cidoc-crm.org/cidoc-crm/E41_Appellation</p>
+      <dl class="description">
+         <dt>is equivalent to</dt>
+         <dd>
+            <a href="#PersonName" title="https://w3id.org/pnv#PersonName">A person's name (@nl:Naam van een persoon)</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   </div><div id="objectproperties">
+   <h3 id="properties" class="list">Object Properties</h3>
+   <ul class="hlist">
+      <li>
+         <a href="#hasName" title="https://w3id.org/pnv#hasName">has name (@nl:heeft naam)</a>
+      </li>
+   </ul>
+   <div class="entity" id="hasName">
+      <h3>has name<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <h3>@nl:heeft naam<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/pnv#hasName</p>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#Person" title="https://w3id.org/pnv#Person">Person (@nl:Persoon)</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#PersonName" title="https://w3id.org/pnv#PersonName">A person's name (@nl:Naam van een persoon)</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+</div><div id="dataproperties">
+   <h3 id="dataproperties-headline" class="list">Data Properties</h3>
+   <ul class="hlist">
+      <li>
+      <a href="#baseSurname" title="https://w3id.org/pnv#baseSurname">base surname (@nl:basis achternaam)</a>
+   </li>
+   <li>
+      <a href="#disambiguatingDescription" title="https://w3id.org/pnv#disambiguatingDescription">disambiguating description (@nl:onderscheidend achtervoegsel)</a>
+   </li>
+   <li>
+      <a href="#firstName" title="https://w3id.org/pnv#firstName">first name (Biodes) (@nl:voornaam BioDes)</a>
+   </li>
+   <li>
+      <a href="#literalName" title="https://w3id.org/pnv#literalName">full name (@nl:volledige naam)</a>
+   </li>
+      <li>
+      <a href="#givenNameSuffix" title="https://w3id.org/pnv#givenNameSuffix">given name suffix (@nl:toevoegsel voornaam)</a>
+   </li>
+   <li>
+      <a href="#givenName" title="https://w3id.org/pnv#givenName">given name (@nl:een of meer voornamen)</a>
+   </li>
+   <li>
+      <a href="#honorificSuffix" title="https://w3id.org/pnv#honorificSuffix">honorific suffix (@nl:titel (adellijk of burgerlijk) als achtervoegsel)</a>
+   </li>
+   <li>
+      <a href="#infixTitle" title="https://w3id.org/pnv#infixTitle">infix title (@nl:adellijke titel in het midden van een naam)</a>
+   </li>
+   <li>
+      <a href="#infix" title="https://w3id.org/pnv#infix">infix (BioDes)</a>
+   </li>
+   <li>
+      <a href="#initials" title="https://w3id.org/pnv#initials">initials (@nl:initialen)</a>
+   </li>
+   <li>
+      <a href="#nameSpecification" title="https://w3id.org/pnv#nameSpecification">name specification (@nl:naamspecificatie)</a>
+   </li>
+   <li>
+      <a href="#patronym" title="https://w3id.org/pnv#patronym">patronym (@nl:patroniem)</a>
+   </li>
+   <li>
+      <a href="#prefix" title="https://w3id.org/pnv#prefix">prefix (@nl:voorvoegsel)</a>
+   </li>
+   <li>
+      <a href="#suffix" title="https://w3id.org/pnv#suffix">suffix (BioDes) (@nl:achtervoegsel BioDes)</a>
+   </li>
+   <li>
+      <a href="#surname" title="https://w3id.org/pnv#surname">surname (@nl:familienaam)</a>
+   </li>
+   <li>
+      <a href="#surnamePrefix" title="https://w3id.org/pnv#surnamePrefix">surname prefix (@nl:tussenvoegsel)</a>
+   </li>
+   <li>
+      <a href="#trailingPatronym" title="https://w3id.org/pnv#trailingPatronym">trailing patronym (@nl:patroniem na achternaam)</a>
+   </li>
+   <li>
+      <a href="#http://xmlns.com/foaf/0.1/name" title="http://xmlns.com/foaf/0.1/name">
+         <span>foaf:name</span>
+      </a>
+   </li>
+    <li>
+      <a href="#https://www.wikidata.org/prop/direct/Property:P2561" title="https://www.wikidata.org/prop/direct/Property:P2561">
+         <span>wikidata-wdt:P2561</span>
+      </a>
+   </li>
+   <li>
+      <a href="#http://xmlns.com/foaf/0.1/familyName" title="http://xmlns.com/foaf/0.1/familyName">
+         <span>foaf:familyName</span>
+      </a>
+   </li>
+   <li>
+      <a href="#https://schema.org/familyName" title="https://schema.org/familyName">
+         <span>schema:familyName</span>
+      </a>
+   </li>
+ <li>
+      <a href="#https://www.wikidata.org/prop/direct/Property:P734" title="https://www.wikidata.org/prop/direct/Property:P734">
+         <span>wikidata-wdt:P734</span>
+      </a>
+   </li>
+   <li>
+      <a href="#http://xmlns.com/foaf/0.1/givenName" title="http://xmlns.com/foaf/0.1/givenName">
+         <span>foaf:givenName</span>
+      </a>
+   </li>
+    <li>
+      <a href="#https://schema.org/givenName" title="https://schema.org/givenName">
+         <span>schema:givenName</span>
+      </a>
+   </li>
+   <li>
+      <a href="#https://www.wikidata.org/prop/direct/Property:P735" title="https://www.wikidata.org/prop/direct/Property:P735">
+         <span>wikidata-wdt:P735</span>
+      </a>
+   </li>
+   <li>
+      <a href="#https://schema.org/honorificPrefix" title="https://schema.org/honorificPrefix">
+         <span>schema:honorificPrefix</span>
+      </a>
+   </li>
+   <li>
+      <a href="#https://schema.org/honorificSuffix" title="https://schema.org/honorificSuffix">
+         <span>schema:honorificSuffix</span>
+      </a>
+   </li>
+   <li>
+      <a href="#https://schema.org/disambiguatingDescription" title="https://schema.org/disambiguatingDescription">
+         <span>schema:disambiguatingDescription</span>
+      </a>
+   </li>
+   </ul>
+   <div class="entity" id="baseSurname">
+      <h3>base surname<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <h3>@nl:basis achternaam<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/pnv#baseSurname</p>
+   <div class="comment">
+         <span class="markdown">BioDes:achternaam</span>
+         <span class="markdown">A2A:PersonNameLastName</span>
+         <span class="markdown">A Base surname is a family name without any prefixes, if those prefixes need to be ignored in sorting. If the family name is e.g. 'de Vries' and it needs to be sorted under 'V', the Base surname is 'Vries'. Base surname is equivalent to BioDes:geslachtsnaam.</span>
+      </div>
+      <div class="description">
+         <dl>
+         	<dt>has domain</dt>
+            <dd>
+               <a href="#PersonName" title="https://w3id.org/pnv#PersonName">A person's name (@nl:Naam van een persoon)</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2001/XMLSchema#string">string</span>
+            </dd>
+         </dl>
+      </div>
+    </div>
+      <div class="entity" id="disambiguatingDescription">
+      <h3>disambiguating description<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <h3>@nl:onderscheidend achtervoegsel<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/pnv#disambiguatingDescription</p>
+      <div class="comment">
+         <span class="markdown">A Disambiguating description is a name part that is appended to make sure that the right person is designated. Name parts like 'Sr.' and 'Jr.', used to distinguish a child from his parent, are disambiguating descriptions.</span>
+      </div>
+      <div class="description">
+         <dl>
+            <dt>has equivalent properties</dt>
+            <dd>
+               <a href="#https://schema.org/disambiguatingDescription" title="https://schema.org/disambiguatingDescription">schema:disambiguatingDescriptione</a>
+               <sup class="type-dp" title="data property">dp</sup>
+            </dd>
+            <dt>has super-properties</dt>
+            <dd>
+               <a href="#suffix" title="https://w3id.org/pnv#suffix">suffix (BioDes) (@nl:achtervoegsel BioDes)</a>
+               <sup class="type-dp" title="data property">dp</sup>
+            </dd>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#PersonName" title="https://w3id.org/pnv#PersonName">A person's name (@nl:Naam van een persoon)</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2001/XMLSchema#string">string</span>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="firstName">
+      <h3>first name (Biodes)<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <h3>@nl:voornaam BioDes<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/pnv#firstName</p>
+      <div class="comment">
+         <span class="markdown">BioDes:voornaam</span>
+         <span class="markdown">A First name is a combination of a given name, a patronym (if any) and a given name suffix. This property is only to be used by data providers who have combined these name elements into one field (following the BioDes structure). First name is equivalent to BioDes:voornaam.</span>
+      </div>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#PersonName" title="https://w3id.org/pnv#PersonName">A person's name (@nl:Naam van een persoon)</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2001/XMLSchema#string">string</span>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="literalName">
+      <h3>full name<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <h3>@nl:volledige naam<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/pnv#literalName</p>
+      <div class="comment">
+         <span class="markdown">A2A:PersonNameLiteral</span>
+         <span class="markdown">Literal name designates a full personal name. This property may only be left blank if a person's name was unknown or if a person was unnamed (e.g. a child that died shortly after being born), in which cases the property pnv:nameSpecification should state "unknown" or "unnamed".</span>
+      </div>
+      <div class="description">
+         <dl>
+            <dt>has equivalent properties</dt>
+            <dd>
+               <a href="#http://xmlns.com/foaf/0.1/name" title="http://xmlns.com/foaf/0.1/name">foaf:name</a>
+               <sup class="type-dp" title="data property">dp</sup>, <a href="#https://www.wikidata.org/prop/direct/Property:P2561" title="https://www.wikidata.org/prop/direct/Property:P2561">wikidata-wdt:P2561</a>
+               <sup class="type-dp" title="data property">dp</sup>
+            </dd>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#PersonName" title="https://w3id.org/pnv#PersonName">A person's name (@nl:Naam van een persoon)</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2001/XMLSchema#string">string</span>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="givenNameSuffix">
+      <h3>given name suffix<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <h3>@nl:toevoegsel voornaam<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/pnv#givenNameSuffix</p>
+      <div class="comment">
+         <span class="markdown">A Given name suffix is a name part that is appended to a given name. In the name of the fifteenth-century Duke of Burgundy Philip the Good, for example, 'the Good' is the Given name suffix.</span>
+      </div>
+      <div class="description">
+         <dl>
+            <dt>has super-properties</dt>
+            <dd>
+               <a href="#givenName" title="https://w3id.org/pnv#givenName">given name (@nl: een of meer voornamen)</a>
+               <sup class="type-dp" title="data property">dp</sup>
+            </dd>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#PersonName" title="https://w3id.org/pnv#PersonName">A person's name (@nl:Naam van een persoon)</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2001/XMLSchema#string">string</span>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="givenName">
+      <h3>given name<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <h3>@nl:een of meer voornamen<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/pnv#givenName</p>
+      <div class="comment">
+         <span class="markdown">A2A:PersonFirstName</span>
+         <span class="markdown">A Given name designates the name(s) given to someone at birth or any other name-giving event.</span>
+      </div>
+      <div class="description">
+         <dl>
+            <dt>has equivalent properties</dt>
+            <dd>
+               <a href="#http://xmlns.com/foaf/0.1/givenName" title="http://xmlns.com/foaf/0.1/givenName">foaf:givenName</a>
+               <sup class="type-dp" title="data property">dp</sup>, <a href="#https://schema.org/givenName" title="https://schema.org/givenName">schema:givenName</a>
+               <sup class="type-dp" title="data property">dp</sup>, <a href="#https://www.wikidata.org/prop/direct/Property:P735" title="https://www.wikidata.org/prop/direct/Property:P735">wikidata-wdt:P735</a>
+               <sup class="type-dp" title="data property">dp</sup>
+            </dd>
+            <dt>has sub-properties</dt>
+            <dd>
+               <a href="#givenNameSuffix" title="https://w3id.org/pnv#givenNameSuffix">given name suffix (@nl:toevoegsel voornaam)</a>
+               <sup class="type-dp" title="data property">dp</sup>
+            </dd>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#PersonName" title="https://w3id.org/pnv#PersonName">A person's name (@nl:Naam van een persoon)</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2001/XMLSchema#string">string</span>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="honorificSuffix">
+      <h3>honorific suffix<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <h3>@nl:titel (adellijk of burgerlijk) als achtervoegsel<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/pnv#honorificSuffix</p>
+      <div class="comment">
+         <span class="markdown">An Honorific suffix is a name part that is appended to distinguish someone.</span>
+      </div>
+      <div class="description">
+         <dl>
+            <dt>has equivalent properties</dt>
+            <dd>
+               <a href="#https://schema.org/honorificSuffix" title="https://schema.org/honorificSuffix">schema:honorificSuffix</a>
+               <sup class="type-dp" title="data property">dp</sup>
+            </dd>
+            <dt>has super-properties</dt>
+            <dd>
+               <a href="#suffix" title="https://w3id.org/pnv#suffix">suffix (BioDes) (@nl:achtervoegsel BioDes)</a>
+               <sup class="type-dp" title="data property">dp</sup>
+            </dd>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#PersonName" title="https://w3id.org/pnv#PersonName">A person's name (@nl:Naam van een persoon)</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2001/XMLSchema#string">string</span>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="infixTitle">
+      <h3>infix title<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <h3>@nl:adellijke titel in het midden van een naam<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/pnv#infixTitle</p>
+      <div class="comment">
+         <span class="markdown">An Infix title designates a title in the middle of a name.</span>
+      </div>
+      <div class="description">
+         <dl>
+            <dt>has super-properties</dt>
+            <dd>
+               <a href="#infix" title="https://w3id.org/pnv#infix">infix (BioDes)</a>
+               <sup class="type-dp" title="data property">dp</sup>
+            </dd>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#PersonName" title="https://w3id.org/pnv#PersonName">A person's name (@nl:Naam van een persoon)</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2001/XMLSchema#string">string</span>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="initials">
+      <h3>initials<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <h3>@nl:initialen<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/pnv#initials</p>
+      <div class="comment">
+         <span class="markdown">A2A:PersonNameInitials</span>
+         <span class="markdown">An initial is the first letter of a person's given name (or sometimes a combination of letters). The Initials property can be used to separately record the initial(s) of a person's given name(s). Each initial should be followed by a dot. It is recommended to always use the Initials property to record initials, but if only the initials of a given name are known, they may also be recorded using pnv:givenName (or pnv:firstName). Example 1: "Peter R. de Vries" would be modelled using pnv:initials "P.R." and pnv:givenName "Peter R.". Example 2: "C.Joh. Kieviet" would ideally be modelled using pnv:initials "C.Joh.", but pnv:givenName "C.Joh." is also possible. Example 3: "H.A.F.M.O. (Hans) van Mierlo" would be modelled using pnv:initials "H.A.F.M.O." and pnv:givenName "Hans".</span>
+      </div>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#PersonName" title="https://w3id.org/pnv#PersonName">A person's name (@nl:Naam van een persoon)</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2001/XMLSchema#string">string</span>
+            </dd>
+         </dl>
+      </div>
+   </div>
+      <div class="entity" id="nameSpecification">
+      <h3>name specification<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <h3>@nl:naamspecificatie<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/pnv#nameSpecification</p>
+      <div class="comment">
+         <span class="markdown">The Name specification property can be used to specify the type of name, e.g. to discern between name variants, or to state that the person's name is unknown or that the person was unnamed, e.g. in the case of a child that died before it was given a name. It can be a string (e.g. "unknown", "unnamed", "religious name", "stage name", "pen name", "married name" or "birth name") or a reference to a controlled vocabulary.</span>
+      </div>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#PersonName" title="https://w3id.org/pnv#PersonName">A person's name (@nl:Naam van een persoon)</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="patronym">
+      <h3>patronym<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <h3>@nl:patroniem<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/pnv#patronym</p>
+      <div class="comment">
+         <span class="markdown">A2A:PersonNamePatronym</span>
+         <span class="markdown">A Patronym is a name element based on the given name of one's father or grandfather. This is also the preferred property for a matronym (i.e. a name element based on the given name of one's mother or grandmother).</span>
+      </div>
+      <div class="description">
+         <dl>
+            <dt>has sub-properties</dt>
+            <dd>
+               <a href="#trailingPatronym" title="https://w3id.org/pnv#trailingPatronym">trailing patronym (@nl:patroniem na achternaam)</a>
+               <sup class="type-dp" title="data property">dp</sup>
+            </dd>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#PersonName" title="https://w3id.org/pnv#PersonName">A person's name (@nl:Naam van een persoon)</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2001/XMLSchema#string">string</span>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="prefix">
+      <h3>prefix<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/pnv#prefix</p>
+      <div class="comment">
+         <span class="markdown">BioDes:prepositie</span>
+         <span class="markdown">A2A:PersonNameTitle</span>
+         <span class="markdown">A2A:PersonNameTitleOfNobility</span>
+         <span class="markdown">A Prefix is a noble or honorific title prefixing a name, e.g. 'Prof. dr.' or 'Jhr.'</span>
+      </div>
+      <div class="description">
+         <dl>
+            <dt>has equivalent properties</dt>
+            <dd>
+               <a href="#https://schema.org/honorificPrefix" title="https://schema.org/honorificPrefix">schema:honorificPrefix</a>
+               <sup class="type-dp" title="data property">dp</sup>
+            </dd>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#PersonName" title="https://w3id.org/pnv#PersonName">A person's name (@nl:Naam van een persoon)</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2001/XMLSchema#string">string</span>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="suffix">
+      <h3>suffix (BioDes)<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <h3>@nl:achtervoegsel BioDes<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/pnv#suffix</p>
+      <div class="comment">
+         <span class="markdown">BioDes:postpositie</span>
+         <span class="markdown">A Suffix designates name elements that come after the family name. This property is only to be used by data providers who have structured their name elements following the BioDes structure.</span>
+      </div>
+      <div class="description">
+         <dl>
+            <dt>has sub-properties</dt>
+            <dd>
+               <a href="#disambiguatingDescription" title="https://w3id.org/pnv#disambiguatingDescription">disambiguating description (@nl:onderscheidend achtervoegsel)</a>
+               <sup class="type-dp" title="data property">dp</sup>, <a href="#honorificSuffix" title="https://w3id.org/pnv#honorificSuffix">honorific suffix (@nl:titel (adellijk of burgerlijk) als achtervoegsel)</a>
+               <sup class="type-dp" title="data property">dp</sup>
+            </dd>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#PersonName" title="https://w3id.org/pnv#PersonName">A person's name (@nl:Naam van een persoon)</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2001/XMLSchema#string">string</span>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="surname">
+      <h3>surname<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <h3>@nl:familienaam<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/pnv#surname</p>
+      <div class="comment">
+         <span class="markdown">A2A:PersonNameFamilyName</span>
+         <span class="markdown">A surname is the name of the family a person is born into, including one or more prefixes. In some cases the honorific prefix can be incorporated into the surname (e.g. Van Welderen baron Rengers).</span>
+      </div>
+      <div class="description">
+         <dl>
+            <dt>has equivalent properties</dt>
+            <dd>
+               <a href="#http://xmlns.com/foaf/0.1/familyName" title="http://xmlns.com/foaf/0.1/familyName">foaf:familyName</a>
+               <sup class="type-dp" title="data property">dp</sup>, <a href="#https://schema.org/familyName" title="https://schema.org/familyName">schema:familyName</a>
+               <sup class="type-dp" title="data property">dp</sup>, <a href="#https://www.wikidata.org/prop/direct/Property:P734" title="https://www.wikidata.org/prop/direct/Property:P734">wikidata-wdt:P734</a>
+               <sup class="type-dp" title="data property">dp</sup>
+            </dd>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#PersonName" title="https://w3id.org/pnv#PersonName">A person's name (@nl:Naam van een persoon)</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2001/XMLSchema#string">string</span>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="surnamePrefix">
+      <h3>surname prefix<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <h3>@nl:tussenvoegsel<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/pnv#surnamePrefix</p>
+      <div class="comment">
+         <span class="markdown">A2A:PersonNamePrefixLastName</span>
+         <span class="markdown">A Surname prefix is a name part prefixing the surname (e.g. 'van' or 'van den').</span>
+      </div>
+      <div class="description">
+         <dl>
+            <dt>has super-properties</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2002/07/owl#topDataProperty">top data property</span>
+            </dd>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#PersonName" title="https://w3id.org/pnv#PersonName">A person's name (@nl:Naam van een persoon)</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2001/XMLSchema#string">string</span>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="trailingPatronym">
+      <h3>trailing patronym<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <h3>@nl:patroniem na achternaam<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/pnv#trailingPatronym</p>
+      <div class="comment">
+         <span class="markdown">A Trailing patronym refers to the parent's given name, suffixing the person's family name, mostly used for disambiguation.</span>
+      </div>
+      <div class="description">
+         <dl>
+            <dt>has super-properties</dt>
+            <dd>
+               <a href="#patronym" title="https://w3id.org/pnv#patronym">patronym (@nl: patroniem)</a>
+               <sup class="type-dp" title="data property">dp</sup>
+            </dd>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#PersonName" title="https://w3id.org/pnv#PersonName">A person's name (@nl:Naam van een persoon)</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2001/XMLSchema#string">string</span>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="http://xmlns.com/foaf/0.1/name">
+      <h3>foaf:name<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://xmlns.com/foaf/0.1/name</p>
+      <div class="description">
+         <dl>
+            <dt>has equivalent properties</dt>
+            <dd>
+               <a href="#literalName" title="https://w3id.org/pnv#literalName">full name (@nl:volledige naam)</a>
+               <sup class="type-dp" title="data property">dp</sup>, <a href="#https://www.wikidata.org/prop/direct/Property:P2561" title="https://www.wikidata.org/prop/direct/Property:P2561">wikidata-wdt:P2561</a>
+               <sup class="type-dp" title="data property">dp</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="https://www.wikidata.org/prop/direct/Property:P2561">
+      <h3>wikidata-wdt:P2561<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://www.wikidata.org/prop/direct/Property:P2561</p>
+      <div class="description">
+         <dl>
+            <dt>has equivalent properties</dt>
+            <dd>
+               <dd>
+               <a href="#literalName" title="https://w3id.org/pnv#literalName">full name (@nl:volledige naam)</a>
+               <sup class="type-dp" title="data property">dp</sup>, <a href="#http://xmlns.com/foaf/0.1/name" title="http://xmlns.com/foaf/0.1/name">foaf:name</a>
+               <sup class="type-dp" title="data property">dp</sup>
+            </dd>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="http://xmlns.com/foaf/0.1/familyName">
+      <h3>foaf:familyName<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://xmlns.com/foaf/0.1/familyName</p>
+      <div class="description">
+         <dl>
+            <dt>has equivalent properties</dt>
+            <dd>
+               <a href="#surname" title="https://w3id.org/pnv#surname">surname (@nl:familienaam)</a>
+               <sup class="type-dp" title="data property">dp</sup>, <a href="#https://schema.org/familyName" title="https://schema.org/familyName">schema:familyName</a>
+               <sup class="type-dp" title="data property">dp</sup>, <a href="#https://www.wikidata.org/prop/direct/Property:P734" title="https://www.wikidata.org/prop/direct/Property:P734">wikidata-wdt:P734</a>
+               <sup class="type-dp" title="data property">dp</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="https://schema.org/familyName">
+      <h3>schema:familyName<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://schema.org/familyName</p>
+      <div class="description">
+         <dl>
+            <dt>has equivalent properties</dt>
+            <dd>
+               <a href="#surname" title="https://w3id.org/pnv#surname">surname (@nl:familienaam)</a>
+               <sup class="type-dp" title="data property">dp</sup>, <a href="#http://xmlns.com/foaf/0.1/familyName" title="http://xmlns.com/foaf/0.1/familyName">foaf:familyName</a>
+               <sup class="type-dp" title="data property">dp</sup>, <a href="#https://www.wikidata.org/prop/direct/Property:P734" title="https://www.wikidata.org/prop/direct/Property:P734">wikidata-wdt:P734</a>
+               <sup class="type-dp" title="data property">dp</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+    <div class="entity" id="https://www.wikidata.org/prop/direct/Property:P734">
+      <h3>wikidata-wdt:P734<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://www.wikidata.org/prop/direct/Property:P734</p>
+      <div class="description">
+         <dl>
+            <dt>has equivalent properties</dt>
+            <dd>
+               <a href="#surname" title="https://w3id.org/pnv#surname">surname (@nl:familienaam)</a>
+               <sup class="type-dp" title="data property">dp</sup>, <a href="#http://xmlns.com/foaf/0.1/familyName" title="http://xmlns.com/foaf/0.1/familyName">foaf:familyName</a>
+               <sup class="type-dp" title="data property">dp</sup>, <a href="#https://schema.org/familyName" title="https://schema.org/familyName">schema:familyName</a>
+               <sup class="type-dp" title="data property">dp</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="http://xmlns.com/foaf/0.1/givenName">
+      <h3>foaf:givenName<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://xmlns.com/foaf/0.1/givenName</p>
+      <div class="description">
+         <dl>
+            <dt>has equivalent properties</dt>
+            <dd>
+               <a href="#givenName" title="https://w3id.org/pnv#givenName">given name (@nl:een of meer voornamen)</a>
+               <sup class="type-dp" title="data property">dp</sup>, <a href="#https://schema.org/givenName" title="https://schema.org/givenName">schema:givenName</a>
+               <sup class="type-dp" title="data property">dp</sup>, <a href="#https://www.wikidata.org/prop/direct/Property:P735" title="https://www.wikidata.org/prop/direct/Property:P735">wikidata-wdt:P735</a>
+               <sup class="type-dp" title="data property">dp</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="https://schema.org/givenName">
+      <h3>schema:givenName<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://schema.org/givenName</p>
+      <div class="description">
+         <dl>
+            <dt>has equivalent properties</dt>
+            <dd>
+               <a href="#givenName" title="https://w3id.org/pnv#givenName">given name (@nl:een of meer voornamen)</a>
+               <sup class="type-dp" title="data property">dp</sup>, <a href="#http://xmlns.com/foaf/0.1/givenName" title="http://xmlns.com/foaf/0.1/givenName">foaf:givenName</a>
+               <sup class="type-dp" title="data property">dp</sup>, <a href="#https://www.wikidata.org/prop/direct/Property:P735" title="https://www.wikidata.org/prop/direct/Property:P735">wikidata-wdt:P735</a>
+               <sup class="type-dp" title="data property">dp</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="https://www.wikidata.org/prop/direct/Property:P735">
+      <h3>wikidata-wdt:P735<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://www.wikidata.org/prop/direct/Property:P735</p>
+      <div class="description">
+         <dl>
+            <dt>has equivalent properties</dt>
+            <dd>
+               <a href="#givenName" title="https://w3id.org/pnv#givenName">given name (@nl:een of meer voornamen)</a>
+               <sup class="type-dp" title="data property">dp</sup>, <a href="#http://xmlns.com/foaf/0.1/givenName" title="http://xmlns.com/foaf/0.1/givenName">foaf:givenName</a>
+               <sup class="type-dp" title="data property">dp</sup>, <a href="#https://schema.org/givenName" title="https://schema.org/givenName">schema:givenName</a>
+               <sup class="type-dp" title="data property">dp</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="https://schema.org/honorificPrefix">
+      <h3>schema:honorificPrefix<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://schema.org/honorificPrefix</p>
+      <div class="description">
+         <dl>
+            <dt>has equivalent properties</dt>
+            <dd>
+               <a href="#prefix" title="https://w3id.org/pnv#prefix">prefix</a>
+               <sup class="type-dp" title="data property">dp</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="https://schema.org/honorificSuffix">
+      <h3>schema:honorificSuffix<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://schema.org/honorificSuffix</p>
+      <div class="description">
+         <dl>
+            <dt>has equivalent properties</dt>
+            <dd>
+               <a href="#honorificSuffix" title="https://w3id.org/pnv#honorificSuffix">honorific suffix (@nl:titel (adellijk of burgerlijk) als achtervoegsel)</a>
+               <sup class="type-dp" title="data property">dp</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="https://schema.org/disambiguatingDescription">
+      <h3>schema:disambiguatingDescription<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://schema.org/disambiguatingDescription</p>
+      <div class="description">
+         <dl>
+            <dt>has equivalent properties</dt>
+            <dd>
+               <a href="#disambiguatingDescription" title="https://w3id.org/pnv#disambiguatingDescription">disambiguating description (@nl:onderscheidend achtervoegsel)</a>
+               <sup class="type-dp" title="data property">dp</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+</div><div id="legend">
+<h2>Legend <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
+<div   class="entity">
+<sup class="type-c" title="Classes">c</sup>: Classes <br/>
+<sup class="type-op" title="Object Properties">op</sup>: Object Properties <br/>
+<sup class="type-dp" title="Data Properties">dp</sup>: Data Properties <br/>
+<sup class="type-ni" title="Named Individuals">ni</sup>: Named Individuals
+</div>
+</div>
